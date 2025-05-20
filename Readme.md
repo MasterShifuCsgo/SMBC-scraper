@@ -11,7 +11,7 @@
 > - ✅ **MSVC v142+** (or latest available)
 > - ✅ **Windows 10 SDK** or **Windows 11 SDK**
 
-➡️ You can ignore everything else.
+➡️ You can ignore everything else other selections.
 
 ---
 
