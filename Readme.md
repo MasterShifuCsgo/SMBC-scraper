@@ -4,7 +4,7 @@
 
 ###  Download and install [Microsoft Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
 
-> ⚠️ You only need the **Build Tools**, not the full Visual Studio IDE.  
+> ⚠️ You only need the **Build Tools**.  
 > During installation, make sure to select:
 >
 > -  **C++ build tools**
