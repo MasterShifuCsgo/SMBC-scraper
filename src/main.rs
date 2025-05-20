@@ -26,7 +26,7 @@ fn create_cache(count: u64) -> PathBuf {
 }
 
 fn append_to_cache(count: u64, item: String) {
-    let path = create_cache(count);
+    let path: PathBuf = create_cache(count);
 
     let mut file = OpenOptions::new()
         .append(true)
@@ -81,7 +81,8 @@ fn get_comic_img(html: &Html) -> String {
 
 #[tokio::main]
 async fn main() -> Result<(), reqwest::Error> {
-    const AMOUNT: u64 = 15;
+    const AMOUNT: u64 = 15; // how many comics you would like
+    const SLEEP: u64 = 250; // how long is the sleep duration in milliseconds
     let mut url = String::from("https://www.smbc-comics.com/comic/wishes-6");
 
     for i in 1..=AMOUNT {
@@ -90,7 +91,7 @@ async fn main() -> Result<(), reqwest::Error> {
 
         let cached = get_cache(i);
         let comic_img = if cached == "no comic found" {
-            sleep(555);
+            sleep(SLEEP);
             let html = parse_html(&url).await;
             let img = get_comic_img(&html);
             append_to_cache(i, img.clone());
