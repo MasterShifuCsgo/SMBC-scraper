@@ -2,16 +2,16 @@
 
 ## 1. Install Rust and Required Tools
 
-### ✅ Download and install [Microsoft Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+###  Download and install [Microsoft Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
 
 > ⚠️ You only need the **Build Tools**, not the full Visual Studio IDE.  
 > During installation, make sure to select:
 >
-> - ✅ **C++ build tools**
-> - ✅ **MSVC v142+** (or latest available)
-> - ✅ **Windows 10 SDK** or **Windows 11 SDK**
+> -  **C++ build tools**
+> -  **MSVC v142+** (or latest available)
+> -  **Windows 10 SDK** or **Windows 11 SDK**
 
-### ✅ Install [Rust](https://www.rust-lang.org/tools/install)
+### Install [Rust](https://www.rust-lang.org/tools/install)
 
 This will install:
 
