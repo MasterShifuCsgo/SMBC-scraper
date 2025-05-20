@@ -10,7 +10,8 @@
 > -  **C++ build tools**
 > -  **MSVC v142+** (or latest available)
 > -  **Windows 10 SDK** or **Windows 11 SDK**
-all the rest can be ignored
+
+All the rest can be ignored
 
 ### Install [Rust](https://www.rust-lang.org/tools/install)
 
