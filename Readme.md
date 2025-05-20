@@ -1,14 +1,39 @@
+How to Use
+Install Rust and Required Tools
 
+✅ Download and install Microsoft Visual Studio Build Tools:
+https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
-# How to use
+⚠️ You only need the Build Tools, not the full Visual Studio IDE.
+During installation, make sure to select:
 
-1. Download Rust
-  - download Microsoft Visual Studio build tools. https://visualstudio.microsoft.com/visual-cpp-build-tools/
-    you only need the build tools, you dont have to download anything from the buildtools, just the program.
-  - Download rust https://www.rust-lang.org/tools/install
-2. clone   repository to your computer. 
+"C++ build tools"
 
-  
+"MSVC v142+" (or latest available)
 
+"Windows 10 SDK" or "Windows 11 SDK"
 
+✅ Install Rust:
+https://www.rust-lang.org/tools/install
 
+This will install rustup, cargo, and rustc.
+
+Clone the repository
+
+Open a terminal or Git Bash and run:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+Build and Run the Project
+
+In the project directory, run:
+
+bash
+Copy
+Edit
+cargo build
+cargo run
+This will compile and start the Rust application.
